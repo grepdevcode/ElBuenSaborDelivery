@@ -37,6 +37,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'ElBuenSabor.usuarios',
+    'ElBuenSabor.Articulos',
+    'ElBuenSabor.gestionPedido',
+
 ]
 
 MIDDLEWARE = [
@@ -76,9 +80,9 @@ WSGI_APPLICATION = 'ElBuenSabor.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME':'proylab',
+        'NAME':'elbuensabor',
         'USER':'postgres',
-        'PASSWORD': '',#agregar contraseña correspondiente
+        'PASSWORD': '123',#agregar contraseña correspondiente
         'HOST':'localhost',
         'PORT':'5432'
     }
