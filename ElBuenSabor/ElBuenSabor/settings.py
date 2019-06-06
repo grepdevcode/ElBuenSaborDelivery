@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'ElBuenSabor.usuarios',
     'ElBuenSabor.Articulos',
     'ElBuenSabor.gestionPedido',
+    'rest_framework',
+    
 
 ]
 
